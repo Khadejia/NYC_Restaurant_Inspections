@@ -196,6 +196,8 @@ nyc-restaurant-inspections/
 ├── sql/
 │   └── nyc_restaurants.sql           # SQL processing and analysis scripts
 │
+│── .gitignore                        # Configuration to exclude heavy data tracking
+│
 └── README.md                         # Project documentation and portfolio overview
 ```
 
