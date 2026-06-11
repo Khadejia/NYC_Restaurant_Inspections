@@ -47,7 +47,10 @@ Source Data → Cleaning & Standardization → Data Enrichment → Final Dataset
 * **Timeline:** Updated continuously through 2025 (Analysis focuses primarily on 2022–2025, with limited records available for 2026)
 * **Note on File Size:** Because the raw dataset exceeds 100MB, it is excluded from this repository via `.gitignore`. 
 
-*To replicate this analysis locally, download the raw CSV from the NYC Open Data link above and place it directly into your local `data/source_data/` directory.*
+Located in `data/source_data/`:
+
+- Download the DOHMH Restaurant Inspection Results dataset from NYC OpenData
+- Save the file as `nyc_restaurant_inspections.csv`
 
 ---
 
@@ -55,9 +58,8 @@ Source Data → Cleaning & Standardization → Data Enrichment → Final Dataset
 
 Located in `data/final/`:
 
-* nyc_inspections_clean.csv
-
-The final dataset was created by filtering, standardizing, and enriching the raw inspection data into a single analysis-ready table for SQL analysis and Tableau visualization.
+- Export the cleaned dataset as `inspections_final.csv`
+- Final CSV files are excluded from the repository via `.gitignore`
 
 Data preparation included:
 
@@ -67,6 +69,7 @@ Data preparation included:
 * Standardizing borough names
 * Standardizing cuisine descriptions
 * Creating derived date and performance metrics
+
 
 ---
 
